@@ -56,11 +56,11 @@ def self.new_from_filename(file_name)
   normalized_name = []
   normalized_name = file_name.split('-')
   name = normalized_name[0]
-  array_name = name.split
   artist_name = normalized_name[1]
   song = self.new
   song.name = name
   song.artist_name = artist_name
+  song
 
 end
 
