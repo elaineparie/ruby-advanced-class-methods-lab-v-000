@@ -54,7 +54,7 @@ end
 #"Taylor Swift - Blank Space.mp3"
 def self.new_from_filename(file_name)
   normalized_name = []
-  normalized_name << file_name.split('-')
+  normalized_name = file_name.split('-')
   name = normalized_name[0]
   artist_name = normalized_name[1]
   song = self.new
